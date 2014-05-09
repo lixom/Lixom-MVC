@@ -4,15 +4,25 @@
 * 
 * @package LixomCore
 */
-class CCIndex implements IController {
+class CCIndex extends CObject implements IController {
 
-   /**
-    * Implementing interface IController. All controllers must have an index action.
-    */
-   public function Index() {   
-      global $lix;
-      $lix->data['title'] = "The Index Controller";
-   }
-
+  /**
+   * Constructor
+   */
+  public function __construct() {
+    parent::__construct();
+  }
+  
+  /**
+   * Implementing interface IController. All controllers must have an index action.
+   */
+  public function Index() {			
+    $modules = new CMModules();
+    $controllers = $modules->AvailableControllers();
+    $this->views->SetTitle('Index')
+                ->AddInclude(__DIR__ . '/index.tpl.php', array(), 'primary')
+                ->AddInclude(__DIR__ . '/sidebar.tpl.php', array('controllers'=>$controllers), 'sidebar');
+  }
+	  
 }
 ?>

@@ -1,8 +1,13 @@
 <?php
 /**
-* Helpers for the template file.
-*/
-$lix->data['header'] = '<h1>Header: Lixom</h1>';
+ * Helpers for the template file.
+ */
+$lix->data['header'] = 'Lixom';
+$lix->data['slogan'] = 'A PHP-based MVC-inspired CMF';
+$lix->data['favicon']      = theme_url('logo_80x80.png');
+$lix->data['logo']         = theme_url('logo.png');
+$lix->data['logo_width']   = 80;
+$lix->data['logo_height']  = 80;
 
 $lix->data['footer'] = <<<EOD
   <p>Footer: &copy; Lixom by Sebastian E (seem13)</p>
