@@ -60,7 +60,7 @@ $lix->config['theme'] = array(
          'logo'        => 'logo.png',
          'logo_width'  => 80,
          'logo_height' => 80,
-         'footer'      => 'p© Lixom by Sebastian E (seem13) based on Lydia/p', 
+         'footer'      => '<p>© Lixom by Sebastian E (seem13) based on Lydia</p>', 
     ), 
 );
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
