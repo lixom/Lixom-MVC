@@ -94,7 +94,7 @@ that page.
 
 
 
-###### Create a blog
+##### Create a new blogpost
 
 To create a new blogpost just follow the steps above of creating a new page.
 Just remember to set the type-field to '*post*’.
