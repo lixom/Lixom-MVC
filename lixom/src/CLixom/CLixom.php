@@ -79,7 +79,7 @@ class CLixom implements ISingleton {
     // Step 1
     // Take current url and divide it in controller, method and parameters
 		$this->request = new CRequest($this->config['url_type']);
-    $this->request->Init($this->config['base_url']);
+    $this->request->Init($this->config['base_url'], $this->config['routing']));
     $controller = $this->request->controller;
     $method     = $this->request->method;
     $arguments  = $this->request->arguments;
