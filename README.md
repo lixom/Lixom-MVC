@@ -89,7 +89,7 @@ controllers in the controllers-array.
 ##### Create a new page
 
 To create a page you need to be signed in, then go to *content/create*. Make sure
-to set the type-field to *'page'.
+to set the type-field to 'page'.
 
 
 
