@@ -3,8 +3,55 @@
 */
 @import url(../../themes/grid/style.css);
 
-html{background-color:#FFE2B3;}
-body{background-color:#D0DCE1;}
-#outer-wrap-header{background-color:#FFE2B3;border-bottom:2px solid #FFCE80}
-#outer-wrap-footer{background-color:#FFE2B3}
-a{color:#436370}
+body {
+  background-color: #ebebeb;
+  font-family: "Lato", sans-serif;
+}
+
+
+#outer-wrap-header{
+	background: #FF9900;
+	border-bottom: 4px solid #cb7b04;
+	padding-bottom: 10px;
+}
+
+
+
+#outer-wrap-footer{
+	background: #3299BB;
+	color:#E9E9E9;
+  border-top:4px solid #25748e;
+}
+
+#footer,
+#footer a {
+	color:#E9E9E9;
+}
+#footer a:hover {
+	color:#333; 
+	text-decoration:none;
+}
+
+/**
+ * Navbar
+ */
+#navbar {
+  padding: 2px 8px;
+  font-weight: 300;
+}
+
+#navbar ul.menu li a {
+	padding: 4px 8px 5px 8px;
+	text-decoration:none;
+	color:#fff;
+}
+
+#navbar ul.menu li a:hover,
+#navbar ul.menu li a.selected
+{
+	background: #cb7b04;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 0;
+}
