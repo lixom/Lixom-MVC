@@ -42,7 +42,7 @@ doe:doe is an ordinary user. To login click the login in the right top corner.
 #### Customize theme
 
 To change the theme, logo, slogan or footer edit the array
-`$lix->config[’theme’]` found at lines 134-155 in '*site/cofig.php*’.
+`$lix->config[’theme’]` found at lines 134-155 in '*site/config.php*’.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $lix->config['theme'] = array(   
@@ -88,9 +88,8 @@ controllers in the controllers-array.
 
 ##### Create a new page
 
-To create a page you need to be signed, then go to *content/create*. Make sure
-to set the type-field to *'page'. *The key-field specifies the url used to find
-that page.
+To create a page you need to be signed in, then go to *content/create*. Make sure
+to set the type-field to *'page'.
 
 
 
