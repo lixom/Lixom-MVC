@@ -46,15 +46,13 @@ To change the theme, logo, slogan or footer edit the array
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $lix->config['theme'] = array(   
-    'path'           => '/themes/mytheme',
+    'path'            => '/themes/mytheme',
     'parent'          => 'themes/grid',
     'stylesheet'      => 'style.css',
     'template_file'   => 'index.tpl.php',
     
     'regions' => array('navbar', 'flash','featured-first','featured-middle','featured-last', 'primary','sidebar','triptych-first','triptych-middle','triptych-last', 'footer-column-one','footer-column-two','footer-column-three','footer-column-four', 'footer',   ),
-
    'menu_to_region' => array('navbar'=>'navbar'),
-   
     'data' => array( 
         'header'       => 'Lixom',
         'slogan'       => 'A PHP-based MVC-inspired CMF',
@@ -62,7 +60,7 @@ $lix->config['theme'] = array(
          'logo'        => 'logo.png',
          'logo_width'  => 80,
          'logo_height' => 80,
-          'footer'     => 'p© Lixom by Sebastian E (seem13) based on Lydia/p', 
+         'footer'      => 'p© Lixom by Sebastian E (seem13) based on Lydia/p', 
     ), 
 );
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
