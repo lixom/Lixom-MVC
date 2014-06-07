@@ -14,6 +14,5 @@
 
 <h2>Actions</h2>
 <ul>
-  <li><a href='<?=create_url('content/init')?>'>Init database, create tables and sample content</a>
   <li><a href='<?=create_url('content/create')?>'>Create new content</a>
 </ul>
